@@ -71,12 +71,14 @@ h2{
 }
 
 .btn2 {
-    background: white;
+    background: transparent;
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
     color: hsl(356, 100%, 66%);
+    border: solid #fff 2px;
     margin: 10px;
+    color: white;
 }
 
 .row2{
