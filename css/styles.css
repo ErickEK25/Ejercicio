@@ -12,7 +12,7 @@ nav {
 
 nav ul li {
     list-style: none;
-    display: inline;
+    display: none;
 }
 
 .logo {
@@ -82,15 +82,20 @@ h2{
 
 .row2{
     padding: 10px 50px;
-    background-image: url("/img/illustration-editor-desktop.svg");
+    /* background-image: url("/img/illustration-editor-desktop.svg"); */
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 70px 50px;
 }
 
+.row2 img{
+
+    max-width: 100%;
+}
+
 .bloque-izq{
-    width: 50%;
+    width: 90%;
 }
 
 .bloque-izq .titulo{
@@ -185,6 +190,46 @@ footer{
     background-color: hsl(240, 10%, 16%);
     display: flex;
     justify-content: space-around;
+    border-top-right-radius: 50px;
 }
 
-footer 
+footer .title{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+footer li{
+    list-style: none;
+    
+}
+
+footer ul{
+    padding-inline-start: 0;
+    color: white;
+}
+
+footer ul a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 668px) {
+    nav ul li {
+        list-style: none;
+        display: inline;
+    }
+    .row2{
+        padding: 10px 50px;
+        background-image: url("/img/illustration-editor-desktop.svg");
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 70px 50px;
+    }
+    .row2 img{
+        display: none;
+    }
+    .bloque-izq{
+        width: 50%;
+    }
+}
