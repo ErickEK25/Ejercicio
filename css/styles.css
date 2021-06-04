@@ -33,7 +33,7 @@ nav ul li {
 main {
     padding: 20px;
     background: hsl(355, 100%, 74%);
-    background-image: url("/img/bg-pattern-intro.svg");
+    background-image: url("../img/bg-pattern-intro.svg");
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ h2{
     border-top-right-radius: 100px;
     padding: 10px 50px;
     background-color: hsl(240, 10%, 16%);
-    background-image: url("/img/bg-pattern-circles.svg");
+    background-image: url("../img/bg-pattern-circles.svg");
     background-position: -220px -480px;
     background-repeat: no-repeat;
     background-size: auto;
@@ -147,7 +147,7 @@ line-height: 2;
 
 .row4{
     padding: 10px 50px;
-    background-image: url("/img/illustration-laptop-desktop.svg");
+    background-image: url("../img/illustration-laptop-desktop.svg");
     background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
